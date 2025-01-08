@@ -36,7 +36,7 @@ The goal is to simulate realistic scooter behavior while providing audio cues fo
 
 ### Circuit Diagram
 
-![Circuit Diagram](https://raw.githubusercontent.com/Spinney20/ScooterAudioSystem/main/ptgithub.png)
+[![Circuit Diagram](https://raw.githubusercontent.com/Spinney20/ScooterAudioSystem/main/ptgithub.png)](https://github.com/Spinney20/ScooterAudioSystem/blob/main/ptgirhub.png)
 
 ### Connections
 
