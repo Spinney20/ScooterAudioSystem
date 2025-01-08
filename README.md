@@ -36,7 +36,7 @@ The goal is to simulate realistic scooter behavior while providing audio cues fo
 
 ### Circuit Diagram
 
-![Circuit Diagram](ptgithub.png)
+![Circuit Diagram](./ptgithub.png)
 
 ### Connections
 
