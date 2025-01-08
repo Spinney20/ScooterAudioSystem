@@ -4,27 +4,6 @@ An Arduino-based project designed to enhance safety and awareness for electric s
 
 ---
 
-## Overview
-
-This project simulates the sound feedback of an electric scooter using an **Arduino Nano**, a **Hall effect sensor**, and an **MP3 player module**. The system plays specific sound files corresponding to the following states:
-
-- **Start**: Plays a startup sound when the system powers on.
-- **Idle**: Plays a continuous idle sound when the scooter is stationary.
-- **Acceleration**: Plays an acceleration sound when the scooter starts moving.
-- **Deceleration + Idle**: Plays a combined sound for deceleration and transitioning back to idle after acceleration.
-
-The goal is to simulate realistic scooter behavior while providing audio cues for enhanced safety and visibility in traffic.
-
----
-
-## Features
-
-- **Dynamic Audio Feedback**: Sounds change based on motion detected by the Hall sensor.
-- **Modular Design**: Easily customizable to add more states or adjust audio files.
-- **Realistic Simulation**: Acceleration and deceleration transitions closely mimic real scooter dynamics.
-
----
-
 ## Hardware Setup
 
 ### Components Used
@@ -47,6 +26,28 @@ The goal is to simulate realistic scooter behavior while providing audio cues fo
 | MP3 Player TX      | D11               | Serial communication with MP3 player TX    |
 | MP3 Player GND     | GND               | Ground connection                          |
 | MP3 Player VCC     | 5V                | Power supply                               |
+
+---
+
+
+## Features
+
+- **Dynamic Audio Feedback**: Sounds change based on motion detected by the Hall sensor.
+- **Modular Design**: Easily customizable to add more states or adjust audio files.
+- **Realistic Simulation**: Acceleration and deceleration transitions closely mimic real scooter dynamics.
+
+---
+
+## Overview
+
+This project simulates the sound feedback of an electric scooter using an **Arduino Nano**, a **Hall effect sensor**, and an **MP3 player module**. The system plays specific sound files corresponding to the following states:
+
+- **Start**: Plays a startup sound when the system powers on.
+- **Idle**: Plays a continuous idle sound when the scooter is stationary.
+- **Acceleration**: Plays an acceleration sound when the scooter starts moving.
+- **Deceleration + Idle**: Plays a combined sound for deceleration and transitioning back to idle after acceleration.
+
+The goal is to simulate realistic scooter behavior while providing audio cues for enhanced safety and visibility in traffic.
 
 ---
 
