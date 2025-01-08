@@ -4,7 +4,19 @@ An Arduino-based project designed to enhance safety and awareness for electric s
 
 ---
 
+## Features
+
+- **Dynamic Audio Feedback**: Sounds change based on motion detected by the Hall sensor.
+- **Modular Design**: Easily customizable to add more states or adjust audio files.
+- **Realistic Simulation**: Acceleration and deceleration transitions closely mimic real scooter dynamics.
+
+---
+
 ## Hardware Setup
+
+### Circuit Diagram
+
+[![Circuit Diagram](ptgirhub.png)
 
 ### Components Used
 
@@ -12,10 +24,6 @@ An Arduino-based project designed to enhance safety and awareness for electric s
 - **Serial MP3 Player Module**: GD3300D for playing audio files stored on an SD card.
 - **Hall Effect Sensor (Analog)**: SS49E or similar, to detect magnetic field intensity.
 - **Speaker System**: For audio output via the MP3 player module.
-
-### Circuit Diagram
-
-[![Circuit Diagram](ptgirhub.png)
 
 ### Connections
 
@@ -29,14 +37,6 @@ An Arduino-based project designed to enhance safety and awareness for electric s
 
 ---
 
-
-## Features
-
-- **Dynamic Audio Feedback**: Sounds change based on motion detected by the Hall sensor.
-- **Modular Design**: Easily customizable to add more states or adjust audio files.
-- **Realistic Simulation**: Acceleration and deceleration transitions closely mimic real scooter dynamics.
-
----
 
 ## Overview
 
