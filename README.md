@@ -118,14 +118,6 @@ Ensure the following MP3 files are correctly formatted and stored on the SD card
 
 ---
 
-## Challenges Faced
-
-- Difficulty with Hall sensor calibration and detecting transitions.
-- Compatibility issues with the MP3 module due to incorrect libraries.
-- Troubleshooting serial communication and ensuring smooth state transitions.
-
----
-
 ## Future Improvements
 
 - Add an LCD display to show sensor values and current states.
